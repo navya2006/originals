@@ -22,11 +22,7 @@ body{
     top: 0;
     position: fixed;
     z-index: 1;
-    transition: 0s;
-    -webkit-animation: fadeInDown;
-    -webkit-animation-fill-mode: both;
-    -webkit-transition: 2s;
-    -webkit-animation-duration: 2s;
+    transition: 0.3s;
 }
 
 .nav .bar a {
@@ -42,7 +38,7 @@ body{
     margin-right: 0.5vw;
     position: relative;
     opacity: 0.8;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .nav h1{
@@ -136,16 +132,37 @@ body{
     text-align: center;
 }
 
-/*ANIMATIONS*/
-@keyframes fadeInDown {
-    0% {
-        margin-top: -100;
-        opacity: 0;
-    }
+/*TEAM*/
+.team{
+    background-color: #011133;
+    width: 100%;
+}
 
+.team .border{
+    border: solid transparent 3px;
+    padding: 2vw;
+    margin-left: 4.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0.5vw;
+    transition: 0.4s
+}
 
-    100% {
-        margin-top: 0;
-        opacity: 1;
-    }
+.team .border img{
+    height: 13vw;
+    width: 10vw;
+    border: #000 solid 3px;
+    border-radius: 50%;
+    filter: grayscale(75%);
+}
+
+.team .border img::before{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.team .border:hover{
+    background-color: #fff;
+}
+
+.team .border:hover> img{
+    filter: grayscale(0%);
 }
