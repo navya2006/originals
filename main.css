@@ -167,9 +167,23 @@ body{
     filter: grayscale(0%);
 }
 
+/*TRAILER*/
+.trailer{
+    background-color: #6678de;
+    width: 100%;
+}
+
+.trailer iframe{
+    height: 40vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
 /*FOOTER*/
 .footer{
-    background-color: #401515;
+    background-color: #222;
     width: 100%;
 }
 
