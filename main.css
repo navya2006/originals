@@ -11,7 +11,7 @@ body{
 
 /*NAV BAR*/
 .nav {
-    background-color: #4d2220;
+    background-color: transparent;
     padding: 7px 0px;
     width: 100%;
     position: absolute;
@@ -29,15 +29,15 @@ body{
     display: inline-block;
     color: #fff;
     border: 3px solid transparent;
-    font-size: 1.5vw;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2vw;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5;
     padding: 1vw 1vw;
     text-decoration: none;
     margin-right: 0.5vw;
     position: relative;
     opacity: 0.8;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav h1{
@@ -53,10 +53,13 @@ body{
     letter-spacing: 0.2vw;
 }
 
+.nav:hover{
+    background-color: #401515;
+}
+
 .nav a:hover {
     color: #e3cc64;
     border-bottom-color: #e3cc64;
-    font-size: 1.5vw;
     opacity: 1;
 }
 
