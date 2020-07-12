@@ -155,12 +155,8 @@ body{
     filter: grayscale(75%);
 }
 
-.team .border img::before{
-    background-color: rgba(0,0,0,0.4);
-}
-
 .team .border:hover{
-    background-color: #fff;
+    background-color: #f7eb79;
 }
 
 .team .border:hover> img{
@@ -179,6 +175,58 @@ body{
     margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
+}
+
+/*POSTERS*/
+.poster{
+    background-color: #011133;
+    width: 100%;
+}
+
+.poster .border1{
+    border: 3px solid transparent;
+    padding: 2vw;
+    margin-top: 2.5vw;
+    margin-left: 4.3vw;
+    transition: 0.4s;
+}
+
+.poster .one img{
+    border: 3px solid #000;
+    height: 25vw;
+    width: 23vw;
+    
+}
+
+.poster .border2{
+    border: 3px solid transparent;
+    padding: 2vw;
+    margin-top: 2vw;
+    margin-left: 14.5vw;
+    margin-bottom: 3vw;
+    transition: 0.4s;
+}
+
+.poster .two img{
+    border: 3px solid #000;
+    height: 25vw;
+    width: 23vw;
+    
+}
+
+.poster h2{
+    color: #011133;
+    font-size: 2.5vw;
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+
+.poster .border1:hover{
+    background-color: #fff;
+}
+
+.poster .border2:hover{
+    background-color: #fff;
 }
 
 /*FOOTER*/
