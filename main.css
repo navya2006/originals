@@ -126,7 +126,7 @@ body{
 }
 
 .about .info p{
-    font-family: 'Fondamento', cursive;
+    font-family: 'Grenze Gotisch', cursive;
     color: #222;
     font-size: 1.8vw;
     text-align: center;
@@ -267,4 +267,88 @@ body{
     font-size: 1.5vw;
     text-align: center;
     padding-top: 0.3vw;
+}
+
+/*MERCH*/
+.merch{
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    height: 120vw;
+}
+
+.merch::before {
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/merchbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 120vw;
+    width: 100%;
+    z-index: -1;
+}
+
+.merch .border1 {
+    border: 3px solid transparent;
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 7.5vw;
+}
+
+.merch .border1 h2{
+    opacity: 0;
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.merch .border1 .img1{
+    border: 2px solid #000;
+}
+
+.merch .border1 .img1 img{
+    height: 23vw;
+    width: 21vw;
+}
+
+.merch .border2 {
+    border: 3px solid transparent;
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.merch .border2 h2{
+    opacity: 0;
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.merch .border2 .img2{
+    border: 2px solid #000;
+}
+
+.merch .border2 .img2 img{
+    height: 18vw;
+    width: 16vw;
+}
+
+.merch .border1:hover{
+    background-color: #ffe98a;
+}
+
+.merch .border2:hover{
+    background-color: #ffe98a;
+}
+
+.merch .border1:hover> h2{
+    opacity: 1;
+    color: #000;
+}
+
+.merch .border2:hover> h2{
+    opacity: 1;
+    color: #000;
 }
